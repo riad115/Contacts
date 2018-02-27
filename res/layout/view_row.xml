@@ -1,0 +1,62 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".Results" >
+
+    <TextView
+        android:id="@+id/custom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#F7D358" />
+
+    <TextView
+        android:id="@+id/custom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/custom1"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="16sp" 
+        android:textColor="#F7D358"/>
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rounded_corner"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="Call" />
+
+    <Button
+        android:id="@+id/btnMail"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnCall"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/rounded_corner"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/custom3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/custom2"
+        android:layout_marginTop="5dp"
+        android:textColor="#F7D358"/>
+
+</RelativeLayout>
+
